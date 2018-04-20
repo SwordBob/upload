@@ -1,1 +1,25 @@
 
+<div >
+    <input type="file">
+    <button >保存</button>
+</div>
+        <strong></strong>  
+</ul>  
+<script src="H:/下载/angular-1.5.0/angular.js"></script>
+<script src="H:/下载/angular-1.5.0/angular.min.js"></script>
+<script>
+var gettype= Object.prototype.toString;
+alert(eval(ret=[{id:1,node:[{id:2,node:[{id:3}]}]},{id:4,node:[{id:5,node:[{id:6,edit:1}]}]},{id:41,node:[{id:51,node:[{id:61,edit:1}]}]}]))
+alert(gettype.call(ret))
+fori(ret);
+function fori(ret){
+for(var a in ret){
+
+	if(ret[a].edit==1)
+	console.log(ret);
+	else{
+	//delete ret[a];
+	fori(ret[a])
+	}
+}}
+</script>
